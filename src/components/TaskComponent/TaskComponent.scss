@@ -1,0 +1,48 @@
+.tasks {
+    position: absolute;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 30px;
+    margin-top: 30px;
+    top: 94px;
+    z-index: 0;
+    width: 1110px;
+    height: auto;
+    box-shadow: 2px 2px 8px;
+    background-color: #fff;
+
+    &--heading {
+        list-style-type: none;
+        text-align: left;
+        padding-bottom: 20px;
+        font-size: 12px;
+        font-weight: 800;
+        color: #757575;
+
+        li {
+            display: inline;
+            margin-right: 25%;
+        }
+    }
+
+    &--body {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+        list-style-type: none;
+        text-align: left;
+        font-size: 12px;
+        font-weight: 800;
+
+        li {
+            display: inline;
+            margin-right: 21.5%;
+        }
+
+        li:last-child {
+            display: inline;
+            margin-right: 0%;
+            margin-left: 2%
+        }
+    }
+}

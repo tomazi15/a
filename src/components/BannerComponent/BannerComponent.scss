@@ -1,0 +1,16 @@
+.banner {
+    // position: absolute;
+    display: block;
+    margin-top: 20px;
+    margin-left: -30px;
+    width: 100%;
+    height: 66px;
+    background: #1D2435;
+
+    &--logo {
+        height: 50px;
+        width: 160px;
+        margin-left: 50px;
+        margin-top: 9px;
+    }
+}
